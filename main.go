@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"cc-util/ui"
+	"capcut-toolbox/ui"
 
 	tea "github.com/charmbracelet/bubbletea"
 )
@@ -13,7 +13,7 @@ var version = "dev"
 
 func main() {
 	if len(os.Args) > 1 && os.Args[1] == "--version" {
-		fmt.Printf("cc-util %s\n", version)
+		fmt.Printf("capcut-toolbox %s\n", version)
 		os.Exit(0)
 	}
 

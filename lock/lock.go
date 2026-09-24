@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"cc-util/util"
+	"capcut-toolbox/util"
 )
 
 func IsLocked(appDir string) bool {

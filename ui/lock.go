@@ -3,7 +3,7 @@ package ui
 import (
 	"fmt"
 
-	"cc-util/lock"
+	"capcut-toolbox/lock"
 
 	tea "github.com/charmbracelet/bubbletea"
 )

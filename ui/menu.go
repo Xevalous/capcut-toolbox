@@ -34,12 +34,12 @@ func (m menuModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 }
 
 func (m menuModel) View() string {
-	s := "\n          CC UTIL\n\n"
+	s := "\n          CAPCUT TOOLBOX\n\n"
 	s += "  [1] Patch\n"
 	s += "  [2] Lock Version\n"
 	s += "  [3] Download Supported Version\n"
 	s += "  [4] Exit\n\n"
 	s += "  Created by Xevalous, Visit the repo:\n"
-	s += "  https://github.com/Xevalous/CC-util\n"
+	s += "  https://github.com/Xevalous/capcut-toolbox\n"
 	return s
 }

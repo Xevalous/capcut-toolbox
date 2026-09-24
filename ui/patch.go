@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"cc-util/patch"
-	"cc-util/util"
+	"capcut-toolbox/patch"
+	"capcut-toolbox/util"
 
 	tea "github.com/charmbracelet/bubbletea"
 )

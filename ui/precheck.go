@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"cc-util/util"
+	"capcut-toolbox/util"
 
 	tea "github.com/charmbracelet/bubbletea"
 )
@@ -129,7 +129,7 @@ func (m precheckModel) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 }
 
 func (m precheckModel) View() string {
-	s := "\n  CC UTIL\n\n  Checking requirements...\n\n"
+	s := "\n  CAPCUT TOOLBOX\n\n  Checking requirements...\n\n"
 
 	for _, c := range m.checks {
 		s += fmt.Sprintf("  [%s]  %s\n", c.status, c.name)

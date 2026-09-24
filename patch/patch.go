@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"cc-util/util"
+	"capcut-toolbox/util"
 )
 
 var (
