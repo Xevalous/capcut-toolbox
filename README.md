@@ -1,6 +1,6 @@
 # capcut-toolbox
 
-CapCut ToolBox: a terminal UI for patching, version-locking, and downloading legacy CapCut builds on Windows.
+A terminal UI for patching, version-locking, and downloading legacy CapCut builds on Windows.
 
 ## Features
 
